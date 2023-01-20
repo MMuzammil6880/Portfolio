@@ -6,7 +6,7 @@ import IMG2 from '../../assets/portfolio2.png'
 import IMG3 from '../../assets/portfolio3.jpg'
 import IMG4 from '../../assets/portfolio4.jpeg'
 import IMG5 from '../../assets/portfolio5.jpeg'
-import IMG6 from '../../assets/portfolio6.jpg'
+import IMG6 from '../../assets/portfolio6.png'
 
 
 
@@ -49,9 +49,9 @@ const data = [
   {
   id: 6,
   image: IMG6,
-  title: 'Charts templates & infographics',
-  github: 'https://github.com',
-  demo: 'https://dribbble.com/shorts/15887665-Orion-UI-kit-Charts-templates-infographics-in-Figma'
+  title: 'Web Intro Card',
+  github: 'https://github.com/MMuzammil6880/WebInfoCard',
+  demo: 'https://mmds-webinfocard.netlify.app/'
   }
   
   ]
