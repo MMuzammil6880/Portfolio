@@ -53,6 +53,10 @@ input , textarea {
     resize: none;
 }
 
+.btn-primary1{
+    display: block;
+    margin: 0 auto;
+}
 /* ================================ Media Queries (large) ============= */
 @media screen and (max-width: 1024px){
         .contact_container{

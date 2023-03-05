@@ -49,7 +49,7 @@ const about = () => {
 
       
       </div>
-        <p>I am a software engineering student with a craze for learning new technologies. I have 1 year of experience as a frontend developer. I have a problem-solving ability in the management of things as well as in programming. I am also a speaker and gave many sessions to the university, college, and school students. My aim in life is to become a full stack developer and will have my own software house and also a team that makes the futures bright for those youngsters that have not any road map about their success or achieving goals.</p>
+        <p className='para'>I am a software engineering student with a craze for learning new technologies. I have 1 year of experience as a frontend developer. I have a problem-solving ability in the management of things as well as in programming. I am also a speaker and gave many sessions to the university, college, and school students. My aim in life is to become a full stack developer and will have my own software house and also a team that makes the futures bright for those youngsters that have not any road map about their success or achieving goals.</p>
 
         <a href="#contact" className='btn btn-primary'> Let's Talk</a>
       
