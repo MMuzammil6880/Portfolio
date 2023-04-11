@@ -35,6 +35,13 @@ h3{
     justify-content: center;
     gap: 1rem;
 }
+
+.portfolio__btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+}
 /* ================================ Media Queries (large) ============= */
 @media screen and (max-width: 1024px){
 

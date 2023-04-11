@@ -1,16 +1,12 @@
 import React from 'react'
 import './portfolio.css'
 
-
+import { Link } from 'react-router-dom';
 
 import IMG1 from "../../assets/portfolio1.jpg";
 import IMG2 from "../../assets/portfolio2.png";
 import IMG3 from "../../assets/portfolio3.jpeg";
-import IMG4 from "../../assets/portfolio4.jpg";
-import IMG5 from "../../assets/portfolio5.jpeg";
-import IMG6 from "../../assets/portfolio6.jpeg";
-import IMG7 from "../../assets/portfolio7.png";
-import IMG8 from "../../assets/portfolio8.jpeg";
+
 
 
 const data = [
@@ -35,45 +31,10 @@ const data = [
   title: 'NetFlix Clone',
   github: 'https://github.com/MMuzammil6880/NetFlix-Clone',
   demo: 'https://mmds-netflix-clone.netlify.app/'
-  },
-  {
-  id: 4,
-  image: IMG4,
-  title: 'Fighting Game',
-  github: 'https://github.com/MMuzammil6880/Fighting-Game',
-  demo: 'https://mmds-fighting-game.netlify.app/'
-  },
-  {
-  id: 5,
-  image: IMG5,
-  title: 'Rock Paper Scissors Game',
-  github: 'https://github.com/MMuzammil6880/Rock-Paper-Scissor-Game',
-  demo: 'https://mmds-rps-game.netlify.app/'
-  },
-  {
-  id: 6,
-  image: IMG6,
-  title: 'Intelligent Calculator',
-  github: 'https://github.com/MMuzammil6880/Intelligent-Calculator',
-  demo: 'https://mmds-icalculator.netlify.app/'
-  },
-  {
-  id: 7,
-  image: IMG7,
-  title: 'Web Intro Card',
-  github: 'https://github.com/MMuzammil6880/WebInfoCard',
-  demo: 'https://mmds-webinfocard.netlify.app/'
   }
-  ,
-  {
-  id: 8,
-  image: IMG8,
-  title: 'Search Bar Or Filter By JS',
-  github: 'https://github.com/MMuzammil6880/Search-Bar-Or-Filter-By-JavaScript',
-  demo: 'https://mmds-estore.netlify.app/'
-  }
+]
   
-  ]
+ 
   
 const portfolio = () => {
 
@@ -97,13 +58,19 @@ const portfolio = () => {
           <a href={github} className='btn' target='_blank'> Github</a>
           <a href={demo} className='btn btn-primary' target='_blank'>Live Demo</a>
           </div>
-       
+             
         </article>
+     
             )
           })
         }
 
       </div>
+      <div className="portfolio__btn">
+
+       <Link to="/portfolio" className='btn btn-primary'>See More....</Link>
+
+       </div>
     </section>
   )
 }

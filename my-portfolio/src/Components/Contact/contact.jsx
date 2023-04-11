@@ -52,7 +52,11 @@ const Contact = () => {
           <textarea name="message"  rows="10" placeholder='Write Your Message Here' required></textarea>
           <button type='submit' className='btn btn-primary btn-primary1'> Send Message</button>
         </form>
+        <div className='contact__scroll'>
+      <a href="#" className='contact__scroll_up'>Scroll Up</a>
       </div>
+      </div>
+     
     </section>
   )
 }

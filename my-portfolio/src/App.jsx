@@ -1,28 +1,18 @@
 import React from 'react'
+import { BrowserRouter, Route , Routes } from 'react-router-dom'
 
-import Header from './Components/Header/header'
-import Nav from './Components/Nav/nav'
-import About from './Components/About/about'
-import Experience from './Components/Experience/experience'
-import Portfolio from './Components/Portfolio/portfolio'
-import Testimonials from './Components/Testimonials/testimonials'
-import Contact from './Components/Contact/contact'
-import Footer from './Components/Footer/footer'
+import Home from './pages/Home'
+import NPortfolio from './Components/NPortfolio/nPortfolio'
 
-const app = () => {
+const App = () => {
   return (
-      <>
-              <Header /> 
-              <Nav />    
-              <About />
-              <Experience /> 
-              <Portfolio />
-              <Testimonials />
-              <Contact />
-              <Footer />
-    
-             </>
+    <BrowserRouter>
+        <Routes>
+          <Route path='/' element={<Home />}/>
+          <Route path='/portfolio' element={<NPortfolio />}/>
+        </Routes>
+    </BrowserRouter>
   )
 }
 
-export default app
+export default App
